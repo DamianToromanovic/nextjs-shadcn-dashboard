@@ -32,7 +32,7 @@ const chartData = [
 export default function AppAreaChart() {
   return (
     <>
-      <h1 className="text-lg font-medium mb-6">Total Visitors</h1>
+      <h2 className="text-lg font-medium mb-6">Total Visitors</h2>
       <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
         <AreaChart
           accessibilityLayer
