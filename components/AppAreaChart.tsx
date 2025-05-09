@@ -2,22 +2,12 @@
 
 import {
   ChartContainer,
-  ChartLegend,
-  ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
 
-import {
-  Area,
-  AreaChart,
-  Bar,
-  BarChart,
-  CartesianGrid,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
 
 const chartConfig = {
   desktop: {
@@ -60,6 +50,7 @@ export default function AppAreaChart() {
             tickMargin={8}
             tickFormatter={(value) => value.slice(0, 3)}
           />
+          <YAxis tickLine={false} axisLine={false} tickMargin={8} />
           <ChartTooltip
             cursor={false}
             content={<ChartTooltipContent indicator="dot" />}
