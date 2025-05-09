@@ -83,7 +83,7 @@ export function AppSidebar() {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/">
-                <Image src="/next.svg" alt="logo" width={40} height={40} />
+                <Image src="/next.svg" alt="logo" width={80} height={80} />
                 <span>Dashboard</span>
               </Link>
             </SidebarMenuButton>
