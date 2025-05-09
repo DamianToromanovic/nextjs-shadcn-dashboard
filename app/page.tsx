@@ -1,3 +1,4 @@
+import AppAreaChart from "@/components/AppAreaChart";
 import AppBarChart from "@/components/AppBarChart";
 
 export default function Homepage() {
@@ -12,6 +13,7 @@ export default function Homepage() {
       <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
       <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
       <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
+        <AppAreaChart />
         Test
       </div>
       <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
