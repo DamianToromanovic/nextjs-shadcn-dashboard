@@ -109,7 +109,7 @@ export default function CardList({ title }: { title: string }) {
                 className="object-cover"
               />
             </div>
-            <CardContent className="p-0">
+            <CardContent className="p-0 flex-1">
               <CardTitle className="text-sm font-medium">{i.title}</CardTitle>
               <Badge variant="secondary">{i.badge}</Badge>
             </CardContent>
